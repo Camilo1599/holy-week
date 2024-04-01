@@ -1,0 +1,44 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.title>h1{
+    text-align: center;
+    margin-bottom: 0;
+}
+.nav-search{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.nav-search>ul{
+    display: flex;
+    list-style: none;  
+    gap: 15px;
+    
+}
+
+.navbar>ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+
+}
