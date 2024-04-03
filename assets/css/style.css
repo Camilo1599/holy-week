@@ -21,6 +21,7 @@ html {
 *::before,
 *::after {
     box-sizing: inherit;
+
 }
 
 body {
@@ -28,6 +29,7 @@ body {
     font-size: 16px;
     margin: 0;
     padding: 0;
+  
 }
 
 
@@ -288,7 +290,7 @@ main>section.container-home-living>div.home-living>div.home-text {
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    border: #333 solid;
+    
 
 }
 
@@ -313,5 +315,34 @@ main>section.container-home-living>div.home-living>img {
 
 footer{
     display:flex ;
-    justify-content: space-evenly;
+    flex-wrap: wrap;    
+    background-color: var(--main-color);
+    padding: var(--space-4) var(--space-4);
+}
+
+footer div{
+    flex-grow: 1;
+    flex-basis: 200px;
+ 
+}
+
+footer > div.contact > p{
+    margin:0;
+}
+
+footer > div.contact > div.icon-contact{
+    display: flex;
+    width: 40%;
+    height: 40px;
+    margin: 10px 0;
+
+    
+    
+}
+
+footer > div.contact > div.icon-contact > a > img{
+    width: 100%;
+    display: block;
+    height: 100%;
+       
 }
